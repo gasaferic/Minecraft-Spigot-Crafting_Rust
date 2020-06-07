@@ -1,0 +1,40 @@
+# MenuCasa
+ListaBlocchi:
+  List:
+    -
+Blocchi:
+Home:
+Airdrops:
+- Location{world=CraftWorld{name=world},x=494.0,y=69.0,z=51.0,pitch=0.0,yaw=0.0}
+- Location{world=CraftWorld{name=world},x=443.0,y=73.0,z=-48.0,pitch=0.0,yaw=0.0}
+rust_not_enough_materials_it: "§c§lRust §6Non hai abbastanza materiali"
+rust_not_enough_materials_eng: "§c§lRust §6You don't have enough materials"
+ammunition_it: "§4§lMunizioni"
+ammunition_eng: "§4§lAmmunition"
+tool_it: "§4§lAttrezzi"
+tool_eng: "§4§lTool"
+healing_it: "§4§lCure"
+healing_eng: "§4§lHealing"
+equipment_it: "§4§lEquipaggiamento"
+equipment_eng: "§4§lEquipment"
+shelter_it: "§4§lRifugio"
+shelter_eng: "§4§lShelter"
+weapon_it: "§4§lArmi"
+weapon_eng: "§4§lWeapons"
+looting_it: "§4§lSaccheggio"
+looting_eng: "§4§lLooting"
+healing_it: "§4§lCure"
+healing_eng: "§4§lHealing"
+material_it: "§4§lMateriali"
+material_eng: "§4§lMaterials"
+Recipe_List: "SHELTER#-#shelter.shelter#-#Shelter_Item#-#LOG@300-#-IRON_INGOT@9"
+Recipes_Items:
+  Shelter_Item:
+    ==: org.bukkit.inventory.ItemStack
+    type: JUKEBOX
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      lore:
+      - §6Test
+      - §6Test

@@ -1,0 +1,1571 @@
+{
+"RecipeTypes": {
+    "Shelter": {
+        "typeName": "SHELTER",
+	"typePlaceholder": "shelter_",
+        "typeItem": {
+            "Material": "JUKEBOX",
+            "Amount": 1,
+            "Durability": 0,
+            "Name": "&c[§6Casa&c]",
+            "Lore": null
+        }
+    }
+},
+"Recipes": [
+    {
+        "recipeType": "SHELTER", 
+        "recipePermission": "rustschematic.shelter",
+        "recipeItem": {
+            "Material": "JUKEBOX",
+            "Amount": 1,
+            "Durability": 0,
+            "Name": "&9&lCasa",
+            "Lore": [
+                "&6300 Legno",
+                "&69 Ferro"
+            ]
+        },
+        "recipeMaterials": {
+            "Log": {
+                "Material": "LOG",
+                "Amount": 300,
+                "Durability": 0,
+                "Name": null,
+                "Lore": null
+            },
+            "Iron": {
+                "Material": "IRON_INGOT",
+                "Amount": 9,
+                "Durability": 0,
+                "Name": null,
+                "Lore": null
+            }
+        },
+        "useRecipeItemAsResult": false
+    },
+    {
+        "recipeType": "SHELTER", 
+        "recipePermission": "rustschematic.irondoor",
+        "recipeItem": {
+            "Material": "IRON_DOOR",
+            "Amount": 1,
+            "Durability": 0,
+            "Name": null,
+            "Lore": [
+                "&675 Ferro"
+            ]
+        },
+        "recipeMaterials": {
+            "Iron": {
+                "Material": "IRON_INGOT",
+                "Amount": 75,
+                "Durability": 0,
+                "Name": null,
+                "Lore": null
+            }
+        },
+        "useRecipeItemAsResult": false
+    },
+    {
+        "recipeType": "SHELTER", 
+        "recipePermission": "rustschematic.woodendoor",
+        "recipeItem": {
+            "Material": "WOOD_DOOR",
+            "Amount": 1,
+            "Durability": 0,
+            "Name": null,
+            "Lore": [
+                "&650 Legno"
+            ]
+        },
+        "recipeMaterials": {
+            "Log": {
+                "Material": "LOG",
+                "Amount": 50,
+                "Durability": 0,
+                "Name": null,
+                "Lore": null
+            }
+        },
+        "useRecipeItemAsResult": false
+    },
+    {
+        "recipeType": "SHELTER", 
+        "recipePermission": "rustschematic.irontrapdoor",
+        "recipeItem": {
+            "Material": "IRON_TRAPDOOR",
+            "Amount": 1,
+            "Durability": 0,
+            "Name": null,
+            "Lore": [
+                "&625 Ferro"
+            ]
+        },
+        "recipeMaterials": {
+            "Iron": {
+                "Material": "IRON_INGOT",
+                "Amount": 25,
+                "Durability": 0,
+                "Name": null,
+                "Lore": null
+            }
+        },
+        "useRecipeItemAsResult": false
+    },
+    {
+        "recipeType": "SHELTER", 
+        "recipePermission": "rustschematic.woodtrapdoor",
+        "recipeItem": {
+            "Material": "TRAP_DOOR",
+            "Amount": 1,
+            "Durability": 0,
+            "Name": null,
+            "Lore": [
+                "&625 Legno"
+            ]
+        },
+        "recipeMaterials": {
+            "Log": {
+                "Material": "LOG",
+                "Amount": 25,
+                "Durability": 0,
+                "Name": null,
+                "Lore": null
+            }
+        },
+        "useRecipeItemAsResult": false
+    },
+    {
+        "recipeType": "SHELTER", 
+        "recipePermission": "rustschematic.furnace",
+        "recipeItem": {
+            "Material": "FURNACE",
+            "Amount": 1,
+            "Durability": 0,
+            "Name": null,
+            "Lore": [
+                "&620 Pietra"
+            ]
+        },
+        "recipeMaterials": {
+            "Cobblestone": {
+                "Material": "COBBLESTONE",
+                "Amount": 20,
+                "Durability": 0,
+                "Name": null,
+                "Lore": null
+            }
+        },
+        "useRecipeItemAsResult": false
+    },
+    {
+        "recipeType": "SHELTER", 
+        "recipePermission": "rustschematic.chest",
+        "recipeItem": {
+            "Material": "CHEST",
+            "Amount": 1,
+            "Durability": 0,
+            "Name": null,
+            "Lore": [
+                "&625 Legno"
+            ]
+        },
+        "recipeMaterials": {
+            "Log": {
+                "Material": "LOG",
+                "Amount": 25,
+                "Durability": 0,
+                "Name": null,
+                "Lore": null
+            }
+        },
+        "useRecipeItemAsResult": false
+    },
+    {
+        "recipeType": "SHELTER", 
+        "recipePermission": "rustschematic.workbench",
+        "recipeItem": {
+            "Material": "WORKBENCH",
+            "Amount": 1,
+            "Durability": 0,
+            "Name": null,
+            "Lore": [
+                "&64 Legno"
+            ]
+        },
+        "recipeMaterials": {
+            "Log": {
+                "Material": "LOG",
+                "Amount": 4,
+                "Durability": 0,
+                "Name": null,
+                "Lore": null
+            }
+        },
+        "useRecipeItemAsResult": false
+    },
+    {
+        "recipeType": "SHELTER", 
+        "recipePermission": "rustschematic.barbedwire",
+        "recipeItem": {
+            "Material": "WEB",
+            "Amount": 1,
+            "Durability": 0,
+            "Name": null,
+            "Lore": [
+                "&63 Bastoni",
+                "&63 Ferro"
+            ]
+        },
+        "recipeMaterials": {
+            "Stick": {
+                "Material": "STICK",
+                "Amount": 3,
+                "Durability": 0,
+                "Name": null,
+                "Lore": null
+            },
+	    "Iron": {
+                "Material": "IRON_INGOT",
+                "Amount": 3,
+                "Durability": 0,
+                "Name": null,
+                "Lore": null
+            }
+        },
+        "useRecipeItemAsResult": false
+    },
+    {
+        "recipeType": "SHELTER", 
+        "recipePermission": "rustschematic.torch",
+        "recipeItem": {
+            "Material": "TORCH",
+            "Amount": 1,
+            "Durability": 0,
+            "Name": null,
+            "Lore": [
+                "&62 Bastoni",
+                "&61 Carbone"
+            ]
+        },
+        "recipeMaterials": {
+            "Stick": {
+                "Material": "STICK",
+                "Amount": 2,
+                "Durability": 0,
+                "Name": null,
+                "Lore": null
+            },
+	    "Coal": {
+                "Material": "COAL",
+                "Amount": 1,
+                "Durability": 0,
+                "Name": null,
+                "Lore": null
+            }
+        },
+        "useRecipeItemAsResult": false
+    },
+    {
+        "recipeType": "EQUIPMENT", 
+        "recipePermission": "rustschematic.leather_helmet",
+        "recipeItem": {
+            "Material": "LEATHER_HELMET",
+            "Amount": 1,
+            "Durability": 0,
+            "Name": null,
+            "Lore": [
+                "&610 Pelle",
+            ]
+        },
+        "recipeMaterials": {
+            "Leather": {
+                "Material": "LEATHER",
+                "Amount": 10,
+                "Durability": 0,
+                "Name": null,
+                "Lore": null
+            }
+        },
+        "useRecipeItemAsResult": false
+    },
+    {
+        "recipeType": "EQUIPMENT", 
+        "recipePermission": "rustschematic.leather_chestplate",
+        "recipeItem": {
+            "Material": "LEATHER_CHESTPLATE",
+            "Amount": 1,
+            "Durability": 0,
+            "Name": null,
+            "Lore": [
+                "&625 Pelle",
+            ]
+        },
+        "recipeMaterials": {
+            "Leather": {
+                "Material": "LEATHER",
+                "Amount": 25,
+                "Durability": 0,
+                "Name": null,
+                "Lore": null
+            }
+        },
+        "useRecipeItemAsResult": false
+    },
+    {
+        "recipeType": "EQUIPMENT", 
+        "recipePermission": "rustschematic.leather_leggings",
+        "recipeItem": {
+            "Material": "LEATHER_LEGGINGS",
+            "Amount": 1,
+            "Durability": 0,
+            "Name": null,
+            "Lore": [
+                "&620 Pelle",
+            ]
+        },
+        "recipeMaterials": {
+            "Leather": {
+                "Material": "LEATHER",
+                "Amount": 20,
+                "Durability": 0,
+                "Name": null,
+                "Lore": null
+            }
+        },
+        "useRecipeItemAsResult": false
+    },
+    {
+        "recipeType": "EQUIPMENT", 
+        "recipePermission": "rustschematic.leather_boots",
+        "recipeItem": {
+            "Material": "LEATHER_BOOTS",
+            "Amount": 1,
+            "Durability": 0,
+            "Name": null,
+            "Lore": [
+                "&615 Pelle",
+            ]
+        },
+        "recipeMaterials": {
+            "Leather": {
+                "Material": "LEATHER",
+                "Amount": 15,
+                "Durability": 0,
+                "Name": null,
+                "Lore": null
+            }
+        },
+        "useRecipeItemAsResult": false
+    },
+    {
+        "recipeType": "EQUIPMENT", 
+        "recipePermission": "rustschematic.iron_helmet",
+        "recipeItem": {
+            "Material": "IRON_HELMET",
+            "Amount": 1,
+            "Durability": 0,
+            "Name": null,
+            "Lore": [
+                "&610 Ferro",
+            ]
+        },
+        "recipeMaterials": {
+            "Iron": {
+                "Material": "IRON_INGOT",
+                "Amount": 10,
+                "Durability": 0,
+                "Name": null,
+                "Lore": null
+            }
+        },
+        "useRecipeItemAsResult": false
+    },
+    {
+        "recipeType": "EQUIPMENT", 
+        "recipePermission": "rustschematic.iron_chestplate",
+        "recipeItem": {
+            "Material": "IRON_CHESTPLATE",
+            "Amount": 1,
+            "Durability": 0,
+            "Name": null,
+            "Lore": [
+                "&625 Ferro",
+            ]
+        },
+        "recipeMaterials": {
+            "Iron": {
+                "Material": "IRON_INGOT",
+                "Amount": 25,
+                "Durability": 0,
+                "Name": null,
+                "Lore": null
+            }
+        },
+        "useRecipeItemAsResult": false
+    },
+    {
+        "recipeType": "EQUIPMENT", 
+        "recipePermission": "rustschematic.iron_leggings",
+        "recipeItem": {
+            "Material": "IRON_LEGGINGS",
+            "Amount": 1,
+            "Durability": 0,
+            "Name": null,
+            "Lore": [
+                "&620 Ferro",
+            ]
+        },
+        "recipeMaterials": {
+            "Iron": {
+                "Material": "IRON_INGOT",
+                "Amount": 20,
+                "Durability": 0,
+                "Name": null,
+                "Lore": null
+            }
+        },
+        "useRecipeItemAsResult": false
+    },
+    {
+        "recipeType": "EQUIPMENT", 
+        "recipePermission": "rustschematic.iron_boots",
+        "recipeItem": {
+            "Material": "IRON_BOOTS",
+            "Amount": 1,
+            "Durability": 0,
+            "Name": null,
+            "Lore": [
+                "&615 Ferro",
+            ]
+        },
+        "recipeMaterials": {
+            "Iron": {
+                "Material": "IRON_INGOT",
+                "Amount": 15,
+                "Durability": 0,
+                "Name": null,
+                "Lore": null
+            }
+        },
+        "useRecipeItemAsResult": false
+    },
+    {
+        "recipeType": "EQUIPMENT", 
+        "recipePermission": "rustschematic.elmo_kevlar",
+        "recipeItem": {
+            "Material": "DIAMOND_HELMET",
+            "Amount": 1,
+            "Durability": 0,
+            "Name": null,
+            "Lore": [
+                "&625 Ferro",
+                "&625 Carbone"
+            ]
+        },
+        "recipeMaterials": {
+            "Iron": {
+                "Material": "IRON_INGOT",
+                "Amount": 25,
+                "Durability": 0,
+                "Name": null,
+                "Lore": null
+            },
+            "Coal": {
+                "Material": "COAL",
+                "Amount": 25,
+                "Durability": 0,
+                "Name": null,
+                "Lore": null
+            }
+        },
+        "useRecipeItemAsResult": false
+    },
+    {
+        "recipeType": "EQUIPMENT", 
+        "recipePermission": "rustschematic.corazza_kevlar",
+        "recipeItem": {
+            "Material": "DIAMOND_CHESTPLATE",
+            "Amount": 1,
+            "Durability": 0,
+            "Name": null,
+            "Lore": [
+                "&655 Ferro",
+                "&655 Carbone"
+            ]
+        },
+        "recipeMaterials": {
+            "Iron": {
+                "Material": "IRON_INGOT",
+                "Amount": 55,
+                "Durability": 0,
+                "Name": null,
+                "Lore": null
+            },
+            "Coal": {
+                "Material": "COAL",
+                "Amount": 55,
+                "Durability": 0,
+                "Name": null,
+                "Lore": null
+            }
+        },
+        "useRecipeItemAsResult": false
+    },
+    {
+        "recipeType": "EQUIPMENT", 
+        "recipePermission": "rustschematic.gambali_kevlar",
+        "recipeItem": {
+            "Material": "DIAMOND_LEGGINGS",
+            "Amount": 1,
+            "Durability": 0,
+            "Name": null,
+            "Lore": [
+                "&650 Ferro",
+                "&650 Carbone"
+            ]
+        },
+        "recipeMaterials": {
+            "Iron": {
+                "Material": "IRON_INGOT",
+                "Amount": 50,
+                "Durability": 0,
+                "Name": null,
+                "Lore": null
+            },
+            "Coal": {
+                "Material": "COAL",
+                "Amount": 50,
+                "Durability": 0,
+                "Name": null,
+                "Lore": null
+            }
+        },
+        "useRecipeItemAsResult": false
+    },
+    {
+        "recipeType": "EQUIPMENT", 
+        "recipePermission": "rustschematic.stivali_kevlar",
+        "recipeItem": {
+            "Material": "DIAMOND_BOOTS",
+            "Amount": 1,
+            "Durability": 0,
+            "Name": null,
+            "Lore": [
+                "&625 Ferro",
+                "&625 Carbone"
+            ]
+        },
+        "recipeMaterials": {
+            "Iron": {
+                "Material": "IRON_INGOT",
+                "Amount": 25,
+                "Durability": 0,
+                "Name": null,
+                "Lore": null
+            },
+            "Coal": {
+                "Material": "COAL",
+                "Amount": 25,
+                "Durability": 0,
+                "Name": null,
+                "Lore": null
+            }
+        },
+        "useRecipeItemAsResult": false
+    },
+    {
+        "recipeType": "EQUIPMENT", 
+        "recipePermission": "rustschematic.ghillie_helmet",
+        "recipeItem": {
+            "Material": "CHAINMAIL_HELMET",
+            "Amount": 1,
+            "Durability": 0,
+            "Name": null,
+            "Lore": [
+                "&65 Pelle",
+                "&610 Erba"
+            ]
+        },
+        "recipeMaterials": {
+            "Leather": {
+                "Material": "LEATHER",
+                "Amount": 5,
+                "Durability": 0,
+                "Name": null,
+                "Lore": null
+            },
+            "Grass": {
+                "Material": "GRASS",
+                "Amount": 10,
+                "Durability": 1,
+                "Name": null,
+                "Lore": null
+            }
+        },
+        "useRecipeItemAsResult": false
+    },
+    {
+        "recipeType": "EQUIPMENT", 
+        "recipePermission": "rustschematic.ghillie_chestplate",
+        "recipeItem": {
+            "Material": "CHAINMAIL_CHESTPLATE",
+            "Amount": 1,
+            "Durability": 0,
+            "Name": null,
+            "Lore": [
+                "&610 Pelle",
+                "&625 Erba"
+            ]
+        },
+        "recipeMaterials": {
+            "Leather": {
+                "Material": "LEATHER",
+                "Amount": 10,
+                "Durability": 0,
+                "Name": null,
+                "Lore": null
+            },
+            "Grass": {
+                "Material": "GRASS",
+                "Amount": 25,
+                "Durability": 1,
+                "Name": null,
+                "Lore": null
+            }
+        },
+        "useRecipeItemAsResult": false
+    },
+    {
+        "recipeType": "EQUIPMENT", 
+        "recipePermission": "rustschematic.ghillie_leggings",
+        "recipeItem": {
+            "Material": "CHAINMAIL_LEGGINGS",
+            "Amount": 1,
+            "Durability": 0,
+            "Name": null,
+            "Lore": [
+                "&610 Pelle",
+                "&620 Erba"
+            ]
+        },
+        "recipeMaterials": {
+            "Leather": {
+                "Material": "LEATHER",
+                "Amount": 10,
+                "Durability": 0,
+                "Name": null,
+                "Lore": null
+            },
+            "Grass": {
+                "Material": "GRASS",
+                "Amount": 20,
+                "Durability": 1,
+                "Name": null,
+                "Lore": null
+            }
+        },
+        "useRecipeItemAsResult": false
+    },
+    {
+        "recipeType": "EQUIPMENT", 
+        "recipePermission": "rustschematic.ghillie_boots",
+        "recipeItem": {
+            "Material": "CHAINMAIL_BOOTS",
+            "Amount": 1,
+            "Durability": 0,
+            "Name": null,
+            "Lore": [
+                "&65 Pelle",
+                "&615 Erba"
+            ]
+        },
+        "recipeMaterials": {
+            "Leather": {
+                "Material": "LEATHER",
+                "Amount": 5,
+                "Durability": 0,
+                "Name": null,
+                "Lore": null
+            },
+            "Grass": {
+                "Material": "GRASS",
+                "Amount": 15,
+                "Durability": 1,
+                "Name": null,
+                "Lore": null
+            }
+        },
+        "useRecipeItemAsResult": false
+    },
+    {
+        "recipeType": "EQUIPMENT", 
+        "recipePermission": "rustschematic.elmo_anti_radiazioni",
+        "recipeItem": {
+            "Material": "GOLD_HELMET",
+            "Amount": 1,
+            "Durability": 0,
+            "Name": null,
+            "Lore": [
+                "&65 Pelle",
+                "&625 Zolfo",
+                "&620 Ferro"
+            ]
+        },
+        "recipeMaterials": {
+            "Leather": {
+                "Material": "LEATHER",
+                "Amount": 5,
+                "Durability": 0,
+                "Name": null,
+                "Lore": null
+            },
+            "Sulphur": {
+                "Material": "SULPHUR",
+                "Amount": 25,
+                "Durability": 0,
+                "Name": null,
+                "Lore": null
+            },
+            "Iron": {
+                "Material": "IRON_INGOT",
+                "Amount": 20,
+                "Durability": 0,
+                "Name": null,
+                "Lore": null
+            }
+        },
+        "useRecipeItemAsResult": false
+    },
+    {
+        "recipeType": "EQUIPMENT", 
+        "recipePermission": "rustschematic.corazza_anti_radiazioni",
+        "recipeItem": {
+            "Material": "GOLD_CHESTPLATE",
+            "Amount": 1,
+            "Durability": 0,
+            "Name": null,
+            "Lore": [
+                "&620 Pelle",
+                "&625 Zolfo",
+                "&640 Ferro"
+            ]
+        },
+        "recipeMaterials": {
+            "Leather": {
+                "Material": "LEATHER",
+                "Amount": 20,
+                "Durability": 0,
+                "Name": null,
+                "Lore": null
+            },
+            "Sulphur": {
+                "Material": "SULPHUR",
+                "Amount": 25,
+                "Durability": 0,
+                "Name": null,
+                "Lore": null
+            },
+            "Iron": {
+                "Material": "IRON_INGOT",
+                "Amount": 40,
+                "Durability": 0,
+                "Name": null,
+                "Lore": null
+            }
+        },
+        "useRecipeItemAsResult": false
+    },
+    {
+        "recipeType": "EQUIPMENT", 
+        "recipePermission": "rustschematic.gambali_anti_radiazioni",
+        "recipeItem": {
+            "Material": "GOLD_LEGGINGS",
+            "Amount": 1,
+            "Durability": 0,
+            "Name": null,
+            "Lore": [
+                "&615 Pelle",
+                "&625 Zolfo",
+                "&635 Ferro"
+            ]
+        },
+        "recipeMaterials": {
+            "Leather": {
+                "Material": "LEATHER",
+                "Amount": 15,
+                "Durability": 0,
+                "Name": null,
+                "Lore": null
+            },
+            "Sulphur": {
+                "Material": "SULPHUR",
+                "Amount": 25,
+                "Durability": 0,
+                "Name": null,
+                "Lore": null
+            },
+            "Iron": {
+                "Material": "IRON_INGOT",
+                "Amount": 35,
+                "Durability": 0,
+                "Name": null,
+                "Lore": null
+            }
+        },
+        "useRecipeItemAsResult": false
+    },
+    {
+        "recipeType": "EQUIPMENT", 
+        "recipePermission": "rustschematic.stivali_anti_radiazioni",
+        "recipeItem": {
+            "Material": "GOLD_BOOTS",
+            "Amount": 1,
+            "Durability": 0,
+            "Name": null,
+            "Lore": [
+                "&65 Pelle",
+                "&625 Zolfo",
+                "&620 Ferro"
+            ]
+        },
+        "recipeMaterials": {
+            "Leather": {
+                "Material": "LEATHER",
+                "Amount": 5,
+                "Durability": 0,
+                "Name": null,
+                "Lore": null
+            },
+            "Sulphur": {
+                "Material": "SULPHUR",
+                "Amount": 25,
+                "Durability": 0,
+                "Name": null,
+                "Lore": null
+            },
+            "Iron": {
+                "Material": "IRON_INGOT",
+                "Amount": 20,
+                "Durability": 0,
+                "Name": null,
+                "Lore": null
+            }
+        },
+        "useRecipeItemAsResult": false
+    },
+    {
+        "recipeType": "EQUIPMENT", 
+        "recipePermission": "rustschematic.backpack",
+        "recipeItem": {
+            "Material": "INK_SACK",
+            "Amount": 1,
+            "Durability": 14,
+            "Name": null,
+            "Lore": [
+                "&620 Pelle",
+            ]
+        },
+        "recipeMaterials": {
+            "Leather": {
+                "Material": "LEATHER",
+                "Amount": 20,
+                "Durability": 0,
+                "Name": null,
+                "Lore": null
+            }
+        },
+        "useRecipeItemAsResult": false
+    },
+    {
+        "recipeType": "WEAPON", 
+        "recipePermission": "rustschematic.bow",
+        "recipeItem": {
+            "Material": "BOW",
+            "Amount": 1,
+            "Durability": 0,
+            "Name": null,
+            "Lore": [
+                "&63 Bastone",
+                "&62 Corde"
+            ]
+        },
+        "recipeMaterials": {
+            "Stick": {
+                "Material": "STICK",
+                "Amount": 3,
+                "Durability": 0,
+                "Name": null,
+                "Lore": null
+            },
+            "Leash": {
+                "Material": "LEASH",
+                "Amount": 2,
+                "Durability": 0,
+                "Name": null,
+                "Lore": null
+            }
+        },
+        "useRecipeItemAsResult": false
+    },
+    {
+        "recipeType": "WEAPON", 
+        "recipePermission": "rustschematic.tec9",
+        "recipeItem": {
+            "Material": "IRON_HOE",
+            "Amount": 1,
+            "Durability": 0,
+            "Name": null,
+            "Lore": [
+                "&68 Ferro"
+            ]
+        },
+        "recipeMaterials": {
+            "Iron": {
+                "Material": "IRON_INGOT",
+                "Amount": 8,
+                "Durability": 0,
+                "Name": null,
+                "Lore": null
+            }
+        },
+        "useRecipeItemAsResult": false
+    },
+    {
+        "recipeType": "WEAPON",
+        "recipePermission": "rustschematic.desert_eagle",
+        "recipeItem": {
+            "Material": "WOOD_HOE",
+            "Amount": 1,
+            "Durability": 0,
+            "Name": null,
+            "Lore": [
+                "&614 Ferro"
+            ]
+        },
+        "recipeMaterials": {
+            "Iron": {
+                "Material": "IRON_INGOT",
+                "Amount": 14,
+                "Durability": 0,
+                "Name": null,
+                "Lore": null
+            }
+        },
+        "useRecipeItemAsResult": false
+    },
+    {
+        "recipeType": "WEAPON",
+        "recipePermission": "rustschematic.colt_1911",
+        "recipeItem": {
+            "Material": "GOLD_HOE",
+            "Amount": 1,
+            "Durability": 0,
+            "Name": null,
+            "Lore": [
+                "&610 Ferro"
+            ]
+        },
+        "recipeMaterials": {
+            "Iron": {
+                "Material": "IRON_INGOT",
+                "Amount": 10,
+                "Durability": 0,
+                "Name": null,
+                "Lore": null
+            }
+        },
+        "useRecipeItemAsResult": false
+    },
+    {
+        "recipeType": "WEAPON",
+        "recipePermission": "rustschematic.mp5",
+        "recipeItem": {
+            "Material": "STONE_HOE",
+            "Amount": 1,
+            "Durability": 0,
+            "Name": null,
+            "Lore": [
+                "&612 Ferro"
+            ]
+        },
+        "recipeMaterials": {
+            "Iron": {
+                "Material": "IRON_INGOT",
+                "Amount": 12,
+                "Durability": 0,
+                "Name": null,
+                "Lore": null
+            }
+        },
+        "useRecipeItemAsResult": false
+    },
+    {
+        "recipeType": "WEAPON",
+        "recipePermission": "rustschematic.ak47",
+        "recipeItem": {
+            "Material": "IRON_SPADE",
+            "Amount": 1,
+            "Durability": 0,
+            "Name": null,
+            "Lore": [
+                "&624 Ferro"
+            ]
+        },
+        "recipeMaterials": {
+            "Iron": {
+                "Material": "IRON_INGOT",
+                "Amount": 24,
+                "Durability": 0,
+                "Name": null,
+                "Lore": null
+            }
+        },
+        "useRecipeItemAsResult": false
+    },
+    {
+        "recipeType": "WEAPON",
+        "recipePermission": "rustschematic.m16",
+        "recipeItem": {
+            "Material": "STONE_SPADE",
+            "Amount": 1,
+            "Durability": 0,
+            "Name": null,
+            "Lore": [
+                "&618 Ferro"
+            ]
+        },
+        "recipeMaterials": {
+            "Iron": {
+                "Material": "IRON_INGOT",
+                "Amount": 18,
+                "Durability": 0,
+                "Name": null,
+                "Lore": null
+            }
+        },
+        "useRecipeItemAsResult": false
+    },
+    {
+        "recipeType": "WEAPON",
+        "recipePermission": "rustschematic.remington",
+        "recipeItem": {
+            "Material": "WOOD_SPADE",
+            "Amount": 1,
+            "Durability": 0,
+            "Name": null,
+            "Lore": [
+                "&616 Ferro"
+            ]
+        },
+        "recipeMaterials": {
+            "Iron": {
+                "Material": "IRON_INGOT",
+                "Amount": 16,
+                "Durability": 0,
+                "Name": null,
+                "Lore": null
+            }
+        },
+        "useRecipeItemAsResult": false
+    },
+    {
+        "recipeType": "WEAPON",
+        "recipePermission": "rustschematic.sawedoff",
+        "recipeItem": {
+            "Material": "GOLD_SPADE",
+            "Amount": 1,
+            "Durability": 0,
+            "Name": null,
+            "Lore": [
+                "&622 Ferro"
+            ]
+        },
+        "recipeMaterials": {
+            "Iron": {
+                "Material": "IRON_INGOT",
+                "Amount": 22,
+                "Durability": 0,
+                "Name": null,
+                "Lore": null
+            }
+        },
+        "useRecipeItemAsResult": false
+    },
+    {
+        "recipeType": "WEAPON",
+        "recipePermission": "rustschematic.sv98",
+        "recipeItem": {
+            "Material": "DIAMOND_SPADE",
+            "Amount": 1,
+            "Durability": 0,
+            "Name": null,
+            "Lore": [
+                "&630 Ferro"
+            ]
+        },
+        "recipeMaterials": {
+            "Iron": {
+                "Material": "IRON_INGOT",
+                "Amount": 30,
+                "Durability": 0,
+                "Name": null,
+                "Lore": null
+            }
+        },
+        "useRecipeItemAsResult": false
+    },
+    {
+        "recipeType": "TOOL",
+        "recipePermission": "rustschematic.stone_axe",
+        "recipeItem": {
+            "Material": "STONE_AXE",
+            "Amount": 1,
+            "Durability": 0,
+            "Name": null,
+            "Lore": [
+                "&63 Pietra",
+                "&62 Bastone"
+            ]
+        },
+        "recipeMaterials": {
+            "Cobblestone": {
+                "Material": "COBBLESTONE",
+                "Amount": 3,
+                "Durability": 0,
+                "Name": null,
+                "Lore": null
+            },
+            "Stick": {
+                "Material": "STICK",
+                "Amount": 2,
+                "Durability": 0,
+                "Name": null,
+                "Lore": null
+            }
+        },
+        "useRecipeItemAsResult": false
+    },
+    {
+        "recipeType": "TOOL",
+        "recipePermission": "rustschematic.stone_pickaxe",
+        "recipeItem": {
+            "Material": "STONE_PICKAXE",
+            "Amount": 1,
+            "Durability": 0,
+            "Name": null,
+            "Lore": [
+                "&63 Pietra",
+                "&62 Bastone"
+            ]
+        },
+        "recipeMaterials": {
+            "Cobblestone": {
+                "Material": "COBBLESTONE",
+                "Amount": 3,
+                "Durability": 0,
+                "Name": null,
+                "Lore": null
+            },
+            "Stick": {
+                "Material": "STICK",
+                "Amount": 2,
+                "Durability": 0,
+                "Name": null,
+                "Lore": null
+            }
+        },
+        "useRecipeItemAsResult": false
+    },
+    {
+        "recipeType": "TOOL",
+        "recipePermission": "rustschematic.fishing_rod",
+        "recipeItem": {
+            "Material": "FISHING_ROD",
+            "Amount": 1,
+            "Durability": 0,
+            "Name": null,
+            "Lore": [
+                "&63 Bastone",
+                "&62 Corda"
+            ]
+        },
+        "recipeMaterials": {
+            "Cobblestone": {
+                "Material": "STICK",
+                "Amount": 3,
+                "Durability": 0,
+                "Name": null,
+                "Lore": null
+            },
+            "Stick": {
+                "Material": "LEASH",
+                "Amount": 2,
+                "Durability": 0,
+                "Name": null,
+                "Lore": null
+            }
+        },
+        "useRecipeItemAsResult": false
+    },
+    {
+        "recipeType": "HEALING",
+        "recipePermission": "rustschematic.splint",
+        "recipeItem": {
+            "Material": "BONE",
+            "Amount": 1,
+            "Durability": 0,
+            "Name": null,
+            "Lore": [
+                "&61 Bastone",
+                "&62 Bende"
+            ]
+        },
+        "recipeMaterials": {
+            "Stick": {
+                "Material": "STICK",
+                "Amount": 1,
+                "Durability": 0,
+                "Name": null,
+                "Lore": null
+            },
+            "Paper": {
+                "Material": "PAPER",
+                "Amount": 2,
+                "Durability": 0,
+                "Name": null,
+                "Lore": null
+            }
+        },
+        "useRecipeItemAsResult": false
+    },
+    {
+        "recipeType": "HEALING",
+        "recipePermission": "rustschematic.bandage",
+        "recipeItem": {
+            "Material": "PAPER",
+            "Amount": 1,
+            "Durability": 0,
+            "Name": null,
+            "Lore": [
+                "&62 Erba"
+            ]
+        },
+        "recipeMaterials": {
+            "Grass": {
+                "Material": "GRASS",
+                "Amount": 2,
+                "Durability": 1,
+                "Name": null,
+                "Lore": null
+            }
+        },
+        "useRecipeItemAsResult": false
+    },
+    {
+        "recipeType": "MATERIAL",
+        "recipePermission": "rustschematic.stick",
+        "recipeItem": {
+            "Material": "STICK",
+            "Amount": 4,
+            "Durability": 0,
+            "Name": null,
+            "Lore": [
+                "&61 Legno"
+            ]
+        },
+        "recipeMaterials": {
+            "Wood": {
+                "Material": "LOG",
+                "Amount": 1,
+                "Durability": 0,
+                "Name": null,
+                "Lore": null
+            }
+        },
+        "useRecipeItemAsResult": false
+    },
+    {
+        "recipeType": "MATERIAL",
+        "recipePermission": "rustschematic.canteen",
+        "recipeItem": {
+            "Material": "GLASS_BOTTLE",
+            "Amount": 1,
+            "Durability": 0,
+            "Name": null,
+            "Lore": [
+                "&61 Ferro"
+            ]
+        },
+        "recipeMaterials": {
+            "Iron": {
+                "Material": "IRON_INGOT",
+                "Amount": 1,
+                "Durability": 0,
+                "Name": null,
+                "Lore": null
+            }
+        },
+        "useRecipeItemAsResult": false
+    },
+    {
+        "recipeType": "MATERIAL",
+        "recipePermission": "rustschematic.leash",
+        "recipeItem": {
+            "Material": "LEASH",
+            "Amount": 1,
+            "Durability": 0,
+            "Name": null,
+            "Lore": [
+                "&63 Erba"
+            ]
+        },
+        "recipeMaterials": {
+            "Grass": {
+                "Material": "GRASS",
+                "Amount": 3,
+                "Durability": 1,
+                "Name": null,
+                "Lore": null
+            }
+        },
+        "useRecipeItemAsResult": false
+    },
+    {
+        "recipeType": "AMMUNITION",
+        "recipePermission": "rustschematic.pistolammo",
+        "recipeItem": {
+            "Material": "SEEDS",
+            "Amount": 1,
+            "Durability": 0,
+            "Name": null,
+            "Lore": [
+                "&61 Ferro",
+                "&61 Zolfo"
+            ]
+        },
+        "recipeMaterials": {
+            "Iron": {
+                "Material": "IRON_INGOT",
+                "Amount": 1,
+                "Durability": 0,
+                "Name": null,
+                "Lore": null
+            },
+            "Sulphur": {
+                "Material": "SULPHUR",
+                "Amount": 1,
+                "Durability": 0,
+                "Name": null,
+                "Lore": null
+            }
+        },
+        "useRecipeItemAsResult": false
+    },
+    {
+        "recipeType": "AMMUNITION",
+        "recipePermission": "rustschematic.shotgunammo",
+        "recipeItem": {
+            "Material": "MELON_SEEDS",
+            "Amount": 1,
+            "Durability": 0,
+            "Name": null,
+            "Lore": [
+                "&62 Ferro",
+                "&62 Zolfo"
+            ]
+        },
+        "recipeMaterials": {
+            "Iron": {
+                "Material": "IRON_INGOT",
+                "Amount": 2,
+                "Durability": 0,
+                "Name": null,
+                "Lore": null
+            },
+            "Sulphur": {
+                "Material": "SULPHUR",
+                "Amount": 2,
+                "Durability": 0,
+                "Name": null,
+                "Lore": null
+            }
+        },
+        "useRecipeItemAsResult": false
+    },
+    {
+        "recipeType": "AMMUNITION",
+        "recipePermission": "rustschematic.assaultammo",
+        "recipeItem": {
+            "Material": "PUMPKIN_SEEDS",
+            "Amount": 1,
+            "Durability": 0,
+            "Name": null,
+            "Lore": [
+                "&63 Ferro",
+                "&63 Zolfo"
+            ]
+        },
+        "recipeMaterials": {
+            "Iron": {
+                "Material": "IRON_INGOT",
+                "Amount": 3,
+                "Durability": 0,
+                "Name": null,
+                "Lore": null
+            },
+            "Sulphur": {
+                "Material": "SULPHUR",
+                "Amount": 3,
+                "Durability": 0,
+                "Name": null,
+                "Lore": null
+            }
+        },
+        "useRecipeItemAsResult": false
+    },
+    {
+        "recipeType": "AMMUNITION",
+        "recipePermission": "rustschematic.arrow",
+        "recipeItem": {
+            "Material": "ARROW",
+            "Amount": 1,
+            "Durability": 0,
+            "Name": null,
+            "Lore": [
+                "&61 Bastone",
+                "&61 Piuma"
+            ]
+        },
+        "recipeMaterials": {
+            "Stick": {
+                "Material": "STICK",
+                "Amount": 1,
+                "Durability": 0,
+                "Name": null,
+                "Lore": null
+            },
+            "Feather": {
+                "Material": "FEATHER",
+                "Amount": 1,
+                "Durability": 0,
+                "Name": null,
+                "Lore": null
+            }
+        },
+        "useRecipeItemAsResult": false
+    },
+    {
+        "recipeType": "LOOTING",
+        "recipePermission": "rustschematic.dinamite",
+        "recipeItem": {
+            "Material": "BLAZE_ROD",
+            "Amount": 1,
+            "Durability": 0,
+            "Name": null,
+            "Lore": [
+                "&610 Zolfo",
+                "&620 Grasso Animale"
+            ]
+        },
+        "recipeMaterials": {
+            "Sulphur": {
+                "Material": "SULPHUR",
+                "Amount": 10,
+                "Durability": 0,
+                "Name": null,
+                "Lore": null
+            },
+            "FermSpiderEye": {
+                "Material": "FERMENTED_SPIDER_EYE",
+                "Amount": 20,
+                "Durability": 0,
+                "Name": null,
+                "Lore": null
+            }
+        },
+        "useRecipeItemAsResult": false
+    },
+    {
+        "recipeType": "LOOTING",
+        "recipePermission": "rustschematic.tnt",
+        "recipeItem": {
+            "Material": "TNT",
+            "Amount": 1,
+            "Durability": 0,
+            "Name": null,
+            "Lore": [
+                "&650 Zolfo",
+                "&620 Dinamite"
+            ]
+        },
+        "recipeMaterials": {
+            "Sulphur": {
+                "Material": "SULPHUR",
+                "Amount": 50,
+                "Durability": 0,
+                "Name": null,
+                "Lore": null
+            },
+            "Dinamite": {
+                "Material": "BLAZE_ROD",
+                "Amount": 20,
+                "Durability": 0,
+                "Name": null,
+                "Lore": null
+            }
+        },
+        "useRecipeItemAsResult": false
+    },
+    {
+        "recipeType": "LOOTING",
+        "recipePermission": "rustschematic.ascia_in_ferro",
+        "recipeItem": {
+            "Material": "IRON_AXE",
+            "Amount": 1,
+            "Durability": 0,
+            "Name": null,
+            "Lore": [
+                "&610 Ferro",
+                "&63 Bastone"
+            ]
+        },
+        "recipeMaterials": {
+            "Iron": {
+                "Material": "IRON_INGOT",
+                "Amount": 10,
+                "Durability": 0,
+                "Name": null,
+                "Lore": null
+            },
+            "Stick": {
+                "Material": "STICK",
+                "Amount": 3,
+                "Durability": 0,
+                "Name": null,
+                "Lore": null
+            }
+        },
+        "useRecipeItemAsResult": false
+    },
+    {
+        "recipeType": "LOOTING",
+        "recipePermission": "rustschematic.safezone_key",
+        "recipeItem": {
+            "Material": "TRIPWIRE_HOOK",
+            "Amount": 1,
+            "Durability": 0,
+            "Name": null,
+            "Lore": [
+                "&6Si può ottenere dalle zone",
+                "&6e dagli airdrop"
+            ]
+        },
+        "recipeMaterials": {
+        },
+        "useRecipeItemAsResult": false,
+	"isCraftable": false
+    }
+  ]
+}
