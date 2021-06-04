@@ -2,7 +2,7 @@
 "RecipeTypes": {
     "Shelter": {
         "typeName": "SHELTER",
-	"typePlaceholder": "shelter_",
+	    "typePlaceholder": "shelter_",
         "typeItem": {
             "Material": "JUKEBOX",
             "Amount": 1,
@@ -250,7 +250,7 @@
             ]
         },
         "recipeMaterials": {
-            "Stick": {
+        "Stick": {
                 "Material": "STICK",
                 "Amount": 2,
                 "Durability": 0,

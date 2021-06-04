@@ -1,7 +1,0 @@
-name: CraftingRust
-main: com.gasaferic.maincraftingrust.Main
-version: 3.0
-author: Gasaferic
-depend: [Rust]
-commands:
-   c:
